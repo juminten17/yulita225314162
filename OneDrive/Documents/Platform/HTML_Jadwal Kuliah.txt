@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jadwal Kuliah</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Jadwal Kuliah</h2>
+    <table>
+        <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Ruang</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>08:00 - 10:00</td>
+            <td>Pemrograman Web</td>
+            <td>Ruang 301</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>10:00 - 12:00</td>
+            <td>Basis Data</td>
+            <td>Ruang 201</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>13:00 - 15:00</td>
+            <td>Jaringan Komputer</td>
+            <td>Ruang 101</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>09:00 - 11:00</td>
+            <td>Sistem Operasi</td>
+            <td>Ruang 401</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>14:00 - 16:00</td>
+            <td>Algoritma dan Struktur Data</td>
+            <td>Ruang 501</td>
+        </tr>
+    </table>
+</body>
+</html>
