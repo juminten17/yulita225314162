@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Jadwal Kuliah Ainggggg</h1>
+    <td >Nama : Yulita Lete</td>
+    <td >Nim  : 225314162</td>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: lightpink; 
+        }
+    </style>
+</head>
+<body>
+    <table border=""> 
+        <tr>
+            <th> Jam/hari</th>
+            <th>07-08</th>
+            <th>08-09</th>
+            <th>09-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+            <th>12-13</th>
+            <th>13-14</th>
+            <th>14-15</th>
+            <th>15-16</th>
+            <th>16-17</th>
+            <th>17-18</th>
+        </tr>
+        <tr>
+            <th>Senin</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Komputasi Paralel Dan Terdistribusi</td>
+            <td style ="background-color: #af7b85;">Komputasi Paralel Dan Terdistribusi</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Selasa</th>
+            <td style ="background-color: #af7b85;">Pembelajaran Mesin</td>
+            <td style ="background-color: #af7b85;">Pembelajaran Mesin</td>
+            <td style ="background-color: #af7b85;">Rekayasa Perangkat Lunak</td>
+            <td style ="background-color: #af7b85;">Rekayasa Perangkat Lunak</td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td style ="background-color: #af7b85;">Interaksi Manusia Dan Komputer</td>
+            <td style ="background-color: #af7b85;">Interaksi Manusia Dan Komputer</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Rabu</th>
+            <td style ="background-color: #af7b85;">Analisis Dan Strategi Algoritma</td>
+            <td style ="background-color: #af7b85;">Analisis Dan Strategi Algoritma</td>
+            <td style ="background-color: #af7b85;">Analisis Dan Strategi Algoritma</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Rekayasa Perangkat Lunak</td>
+            <td style ="background-color: #af7b85;">Rekayasa Perangkat Lunak</td>
+            <td style ="background-color: #af7b85;">Rekayasa Perangkat Lunak</td>
+            <td style ="background-color: #af7b85;">Kewarganegaraan</td>
+            <td style ="background-color: #af7b85;">Kewarganegaraan</td>
+        </tr>
+        <tr>
+            <th>Kamis</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td style ="background-color: #af7b85;">Pemograman Berbasis Platfrom</td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Pembelajaran Mesin</td>
+            <td style ="background-color: #af7b85;">Pembelajaran Mesin</td>
+            <td style ="background-color: #af7b85;">Pembelajaran Mesin</td>
+        </tr>
+        <tr>
+            <th>Jumat</th>
+            <td></td>
+            <td style ="background-color: #af7b85;">Etika Profesi</td>
+            <td style ="background-color: #af7b85;">Etika Profesi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style ="background-color: #af7b85;">Manajemen Informasi</td>
+            <td style ="background-color: #af7b85;">Manajemen Informasi</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
