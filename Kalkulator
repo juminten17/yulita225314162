@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <title>Kalkulator Tambah/Kurang</title>
+    <style>
+        .a{
+            background-color: #de9fa385;
+            border: 1px solid black;
+            text-align: center;
+            /* display: flex; */
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function penjumlahan() {
+        var bilangan1 = parseFloat(document.getElementById('bilangan1').value);
+        var bilangan2 = parseFloat(document.getElementById('bilangan2').value);
+        var hasil = bilangan1 + bilangan2;
+        document.getElementById('hasil').value = hasil;
+        }
+
+        function pengurangan() {
+        var bilangan1 = parseFloat(document.getElementById('bilangan1').value);
+        var bilangan2 = parseFloat(document.getElementById('bilangan2').value);
+        var hasil = bilangan1 - bilangan2;
+        document.getElementById('hasil').value = hasil;
+        }
+    </script>  
+</head>
+<body>
+    <div class="a">
+        <h2>Kalkulator Tambah/Kurang</h2>
+        <label for = "bilangan1" ></label>
+        <input placeholder="Bilangan 1" type="number" id="bilangan1"><br><br>
+
+        <label for="bilangan2"></label>
+        <input placeholder="Bilangan 2" type="number" id="bilangan2"><br><br>
+
+        <button style ="background-color: #7a2e327a"onclick="penjumlahan()">Penjumlahan</button>
+        <button style ="background-color: #7a2e327a"onclick="pengurangan()">Pengurangan</button><br><br>
+
+        <label for="hasil">Hasil:</label>
+        <input type="text" id="hasil" readonly>
+        <p></p>
+    </div>
+  
+</body>
+</html>
